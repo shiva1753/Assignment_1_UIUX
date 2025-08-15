@@ -1,0 +1,163 @@
+/* Font & General Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #121212;
+    color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #000, #1a1a1a);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header .tagline {
+    font-size: 1.1em;
+    color: #ccc;
+    margin-top: 5px;
+}
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Full-Width Sections with Style */
+section {
+    padding: 50px 8%;
+    background: linear-gradient(145deg, #1a1a1a, #101010);
+    border-top: 1px solid rgba(255, 204, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 204, 0, 0.2);
+    transition: background 0.3s;
+}
+section:hover {
+    background: linear-gradient(145deg, #222, #141414);
+}
+h2 {
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* About */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about-container img {
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.about-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 204, 0, 0.7);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background: #000;
+    color: #ffcc00;
+}
+tbody tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+tbody tr:hover {
+    background-color: #2a2a2a;
+    transition: background 0.3s;
+}
+
+/* Skills List */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+ul li {
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+ul li:hover {
+    color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #000, #1a1a1a);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+    border-top: 1px solid rgba(255, 204, 0, 0.2);
+}
+
+/* Font & General Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #121212;
+    color: #f5f5f5;
+    font-size: 18px; /* Bigger base text */
+    line-height: 1.6;
+}
+
+/* Header */
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Bigger main title */
+}
+header .tagline {
+    font-size: 1.3em; /* Bigger tagline */
+}
+nav a {
+    font-size: 1.1em;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 2em;
+}
+
+/* Table */
+th, td {
+    font-size: 1.05em;
+}
+
+/* Skills List */
+ul li {
+    font-size: 1.05em;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #fff;
+}
